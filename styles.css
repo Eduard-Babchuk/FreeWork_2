@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: right;
+    padding: 10px;
+} 
+#scoreBox {
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}  
+#score {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 5px;
+}
+#clickCount {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+}  
+.shape {
+    position: absolute;
+    cursor: pointer;
+    border-radius: 50%;
+} 
+.circle {
+    width: 100px;
+    height: 100px;
+} 
+.blue {
+    background-color: #4682b4;
+}  
+.red {
+    background-color: #ff6347;
+}
+.green {
+    background-color: #32cd32;
+}  
+.yellow {
+    background-color: #ffd700;
+}  
